@@ -171,7 +171,16 @@
           print(type(a)) ----> <class 'str'>
 
           b=int(a)
-          print(b)    -------> <class 'int'>
+          print(type(b))    -------> <class 'int'>
+
+                      (or)
+
+          a='154'
+          print(type(a)) ----> <class 'str'>
+
+          b=int(a)
+          print(b)    -------> 154
+
           
 
 
